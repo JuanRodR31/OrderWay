@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="productsTotal">Costo de los productos:</string>
+    <string name="deliveryPrice">Costo de envio:</string>
+    <string name="servicePrice">Tarifa de servicio:</string>
+    <string name="tips">Propina</string>
+    <string name="total">Total:</string>
+    <string name="pay">Pagar</string>
+    <string name="domiciliary">Domiciliario</string>
+    <string name="nearOrders">Pedidos cerca de ti:</string>
+    <string name="estimatedTime">Hora estimada de entrega:</string>
+    <string name="orderCollected"> Orden recogida</string>
+    <string name="arrived">Llegue</string>
+    <string name="finish">Finalizar pedido</string>
+    <string name="account">Mi cuenta</string>
+    <string name="orderHistory">Historial de pedidos</string>
+    <string name="deliverOrder">Quiero entregar un pedido</string>
+    <string name="manageRestaurant">Administrar mis restaurantes</string>
+    <string name="paymentMethods">Metodos de Pago</string>
+    <string name="LogOut">Cerrar sesion</string>
+    <string name="slogan">La mejor manera de pedir comida</string>
+    <string name="login">Iniciar sesion</string>
+    <string name="register">Registrarse</string>
+    <string name="searchText">¿Que quieres comer hoy?</string>
+    <string name="myOrders">Mis pedidos:</string>
+    <string name="categories">categorias:</string>
+    <string name="popular">Popular:</string>
+    <string name="deliveryTime">Tiempo de entrega:</string>
+    <string name="rating">Calificacion:</string>
+    <string name="deliveryCost">Costo de envio: </string>
+    <string name="restaurant">Restaurante</string>
+    <string name="addLogo">añadir logo</string>
+    <string name="restaurantName">Nombre del restaurante</string>
+    <string name="restaurantNameText">ingrese el nombre</string>
+    <string name="location">Ubicacion</string>
+    <string name="productList">Lista de productos:</string>
+    <string name="myRestaurants">Mis restaurantes:</string>
+    <string name="editRestaurant">Administrar</string>
+    <string name="createRestaurant">Crear restaurante</string>
+    <string name="myOrdes">Mi pedido:</string>
+    <string name="state">Estado:</string>
+    <string name="summary">Resumen del pedido:</string>
+</resources>
