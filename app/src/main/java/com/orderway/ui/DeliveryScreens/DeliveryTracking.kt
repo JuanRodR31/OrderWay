@@ -49,6 +49,7 @@ fun image() {
 @Composable
 fun Tracking(time: String ,
              orderState: String,
+             total: Int,
              onChangeState: () -> Unit
              ){
 
@@ -105,6 +106,20 @@ fun Tracking(time: String ,
                         Text(text="hola")
                     }
                 }
+                Row {
+                    Text(text = stringResource(id = R.string.total),
+                        textAlign = TextAlign.Center,
+                        fontWeight = FontWeight.Bold,
+                        fontSize = 16.sp,
+                        modifier = Modifier.padding(horizontal = 16.dp, vertical = 10.dp)
+                    )
+                    Text(
+                        text = total.toString(),
+                        modifier = Modifier.padding(horizontal = 16.dp, vertical = 10.dp)
+
+                    )
+                }
+
             }
         }
 
@@ -140,5 +155,6 @@ fun Tracking(time: String ,
 fun TrackingPreview(){
     Tracking("10:00AM-10:30AM",
         "Recogi pedido",
+        10000,
         onChangeState = { /* no-op */ })
 }
